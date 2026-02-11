@@ -1,0 +1,134 @@
+body {
+    background:linear-gradient(#2271b6, #092035);
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+}
+
+main {
+    font-family: sans-serif;
+    color : white;
+}
+
+.profile-picture {
+    height: 400px;
+    border-radius: 10px;
+}
+
+.logo-lightly {
+    height: 150px;
+    border-radius: 10px;
+}
+
+.logo-portofolio {
+    height: 150px;
+    border-radius: 10px;
+}
+
+#about-section {
+    display: flex;
+    align-items: center;      
+    justify-content: center; 
+    gap: 40px;
+    margin: 60px auto;
+    max-width: 1000px;
+    font-size: 23px;
+    text-align: justify;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#skills {
+    max-width: 900px;
+    margin: 120px auto;
+}
+
+#skills h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#skills ul {
+    max-width: 800px;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+#skills li {
+    margin-bottom: 12px;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 120px;
+    margin-bottom: 60px;
+}
+
+#projects {
+    display: flex;
+    flex-direction: column;   
+    align-items: center;
+    gap: 10px;
+    max-width: 1100px;
+    margin: 0 auto 100px auto;
+    margin-top: 70px;
+}
+
+.list-project {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+}
+
+.macam-project article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 420px;
+}
+
+.macam-project p {
+    text-align: justify;
+}
+
+
+#contact {
+    text-align: justify;
+    font-size: 16px;
+    text-align: center;
+}
+
+.navbar {
+    background-color: #4a83bd;
+}
+.nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 800px; 
+}
+.nav-list a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px;
+    font-family: sans-serif;
+    display: block;
+}
+
+.nav-list a:hover {
+    background-color: #3b6ea5;
+    border-radius: 5px;
+}
